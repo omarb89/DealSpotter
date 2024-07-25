@@ -16,9 +16,9 @@ $connection = DriverManager::getConnection(
     [
         'driver' => 'pdo_mysql',
         'user' => 'root',
-        'password' => '',
+        'password' => 'root',
         'dbname' => 'DealSpotter',
-        'port' => 3306
+        'port' => 8889
     ]
 );
 
